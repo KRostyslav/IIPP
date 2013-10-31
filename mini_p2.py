@@ -44,9 +44,9 @@ def input_guess(guess):
     print "Number of remaining guesses is  " + str(guess_count)
     
     if guess_number > secret_number:
-        print "Higher!"
-    elif guess_number < secret_number:
         print "Lower!"
+    elif guess_number < secret_number:
+        print "Higher!"
     else:
         print "Correct!\n"
         new_game();
